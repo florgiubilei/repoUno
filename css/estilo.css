@@ -1,0 +1,1303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ /*MEDIAQUERIES HOME*/
+@media only screen and (max-width:320px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: 1000px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        width: 95%;
+        height: 200px;
+        text-align: center;
+    }
+
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+    }
+    iframe{
+        width: 100%;
+        height: 90%;
+        align-items: center;
+    }
+
+    .horariosPadre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:95%;
+        height: 200px;
+    }
+
+    .horarios{
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 200px;
+    }
+    .ubicacion img{
+        width: 70%;
+        height: 150px;
+        
+    }
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding-left: 15px;
+    }
+
+    .insta img{
+        width: 85px;
+        height: 85px;
+     
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+        padding-bottom: 5px;
+  
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    
+    }
+}
+@media only screen and (min-width:320px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: 1000px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        width: 95%;
+        height: 200px;
+        text-align: center;
+    }
+
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+    }
+    iframe{
+        width: 100%;
+        height: 90%;
+        align-items: center;
+    }
+
+    .horariosPadre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 200px;
+    }
+
+    .horarios{
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+    .ubicacion img{
+        width: 70%;
+        height: 150px;
+        
+    }
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding:15px 10px;
+        margin-left:35px; 
+    }
+
+    .insta img{
+        width: 85px;
+        height: 85px;
+     
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+  
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    
+    }
+}
+
+@media only screen and (min-width:480px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: 1000px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+    }
+
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+    }
+    iframe{
+        width: 100%;
+        height: 90%;
+        align-items: center;
+    }
+
+    .horariosPadre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 200px;
+    }
+
+    .horarios{
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+    .ubicacion img{
+        width: 60%;
+        height: 200px;
+        padding-bottom: 10px;
+        
+    }
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 10px;
+        margin-left: 75px;
+    }
+
+    .insta img{
+        width: 85px;
+        height: 85px;
+     
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+        padding-bottom: 5px;
+  
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    
+    }
+}
+@media only screen and (min-width:600px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: 1000px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+    }
+
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+    }
+    iframe{
+        width: 100%;
+        height: 90%;
+        align-items: center;
+    }
+
+    .horariosPadre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 200px;
+    }
+
+    .horarios{
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+    .ubicacion img{
+        width: 60%;
+        height: 200px;
+        padding-bottom: 10px;
+        
+    }
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 10px;
+        margin-left: 100px;
+    }
+
+    .insta img{
+        width: 85px;
+        height: 85px;
+     
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+        padding-bottom: 5px;
+  
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    
+    }
+}
+@media only screen and (min-width:768px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: 1000px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        height: 200px;
+        text-align: center;
+        
+
+    }
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        width: 1024px;
+        height: 1000px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    iframe{
+        width: 80%;
+        height: 100%;
+    }
+
+    .horariosPadre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 200px;
+    }
+    .horarios{
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+        height: 600px;
+    }
+    .ubicacion img{
+        margin-top:10px ;
+        width: 50%;
+        height: 300px;
+    }
+
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 10px;
+        margin-left: 120px;
+        
+    }
+    .insta img{
+        width: 85px;
+        height: 85px;
+     
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+        
+  
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    
+    }
+}
+@media only screen and (min-width:992px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: 1000px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        height: 200px;
+        text-align: center;
+        
+
+    }
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        width: 992px;
+        height: 1000px;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    iframe{
+        width: 80%;
+        height: 100%;
+    }
+
+    .horariosPadre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 200px;
+    }
+    .horarios{
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+        height: 600px;
+    }
+    .ubicacion img{
+        margin-top:10px ;
+        width: 50%;
+        height: 300px;
+    }
+
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 10px;
+        margin-left: 120px;
+        
+    }
+    .insta img{
+        width: 85px;
+        height: 85px;
+     
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+        
+  
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    
+    }
+}
+@media only screen and (min-width:1024px){
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+    .chat{
+        width: 50px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    .chat img{
+        width: 100%;
+        height: auto;
+    }
+    .home{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 25% 25%;
+        grid-template-areas: "intro video"
+                             "horarios horarios"
+                             "ubicacion ubicacion";
+        column-gap: 20px;
+        row-gap: 20px;
+        width: 100%;
+        height: 2500px;
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .intro{
+        grid-area: intro;
+        width: 95%;
+        height: 500px;
+        text-align: center;
+    }
+
+    .video{
+        grid-area: video;
+        width: 95%;
+        height: 300px;
+        margin-top: 20%;
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .horariosPadre{
+        grid-area: horarios;
+        font-size:25px ;
+
+        width:100%;
+        height: 100%;
+
+    }
+    .horarios{
+        align-items: space-around;
+        list-style: none;
+        text-align: center;
+    }
+
+    .ubicacion{
+        grid-area: ubicacion;
+        width: 100%;
+        height: 600px;
+    }
+    .ubicacion img{
+        width: 50%;
+        height: 300px;
+    }
+
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: 100%;
+    }
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        margin-left:30vh;
+    }
+    .insta img{
+        width: 85px;
+        height: 85px;
+    }
+    .face img{
+        width: 70px;
+        height: 70px;
+    }
+    .mail img{
+        width: 85px;
+        height: 85px;
+    }
+}
+
+/*MEDIAQUERIES INGRESAR*/
+@media only screen and (max-width:480px){
+    .log{
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+        width:auto;
+    }
+    .ingresar{
+        width: 100%;
+        height: 800px;
+
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height:400px;
+        text-align: center;
+        padding-top: 20%;
+        justify-content: space-between;
+        
+    }
+}
+@media only screen and (min-width:480px){
+    .log{
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+        width:auto;
+    }
+    .ingresar{
+        width: 100%;
+        height: 800px;
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height:400px;
+        text-align: center;
+        padding-top: 20%;
+        justify-content: space-between;
+    } 
+}
+@media only screen and (min-width:768px){
+    .log{
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+        width:auto;
+    }
+    .ingresar{
+        width: 100%;
+        height: 800px;
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height:400px;
+        text-align: center;
+        padding-top: 20%;
+        justify-content: space-between;
+    } 
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: auto;
+        height: 200px;
+    }
+    
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding-top: 70px;
+        padding-left: 60px;
+    }
+
+}
+@media only screen and (min-width:992px){
+    .log{
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+        width:auto;
+    }
+    .ingresar{
+        width: 100%;
+        height: 800px;
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height:400px;
+        text-align: center;
+        padding-top: 20%;
+        justify-content: space-between;
+    } 
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: auto;
+        height: 200px;
+    }
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding-top: 70px;
+        padding-left: 60px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .log{
+        background-color: rgb(229, 138, 203);
+        font-family: 'Quicksand', sans-serif;
+        width:auto;
+    }
+    .ingresar{
+        width: 100%;
+        height: 800px;
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height:400px;
+        text-align: center;
+        justify-content: space-between;
+        padding-top: 10%;
+    } 
+    footer{
+        background-color: rgb(251, 205, 63);
+        width: auto;
+        height: 200px;
+    }
+    .redes li{
+        list-style: none;
+        display: inline-block;
+        padding-top: 70px;
+        padding-left: 60px;
+    }
+}
+
+/*HEADER MISMO PARA TODOS*/
+    header{
+        background-color: rgb(195, 233, 211);
+        text-align: center; 
+    }
+    
+    .logo {
+        height: 130px ;
+    }
+
+    .logo img {
+
+        height: 100%;
+        width: auto;
+    }
+    nav {
+        height: 80px;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .lista {
+        list-style: none;
+    }
+
+    .lista li {
+        display: inline-block;
+        width: 20%;
+        height: 50px;
+    }
+    .lista li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-top: 10px;
+        height: 40px;
+    }
+    .lista li a:hover {
+        background-color: rgb(233, 57, 163);
+    }
+
+
+/*WSP BOTON*/
+.chat{
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.chat img{
+    width: 100%;
+    height: auto;
+}
+
+/*MAIN CURSOS*/
+.mainCursos{
+    background-color: rgb(229, 138, 203);
+}
+.videoCursos{
+    height: 500px ;
+    width: 1000px;
+
+}
+.videoCurso {
+    height: 500px ;
+    width: 100%;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+.cursos div{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.cursos div h2{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cursos div p{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.workshop {
+    margin-top: 50px;
+    margin-left: 700px;
+    height: auto;
+    width: auto;
+}
+.workshop h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.workshop img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 500px;
+}
+
+/*MAIN RECETAS*/
+.mainRecetas{
+    background-color: rgb(229, 138, 203);
+}
+.carrousel {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recetas h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recetas h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.recetas div{
+    width: 50%;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.ingredientes {
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.budin{
+    padding-left: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 500px ;
+    width: 800px;
+}
+
+/*MAIN TIENDA*/
+.mainTienda{
+    background-color: rgb(229, 138, 203);
+}
+.titulo {
+    text-align: center;
+}
+
+.opciones{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.opciones p{
+    padding-top: 30px;
+}
+
+.opciones select{
+    margin-top: 20px;
+}
+
+.botones{
+    width: 100%;
+    height: 100px;
+}
+
+.botones input{
+     display: inline;
+     margin-left: 600px;
+     margin-top: 30px;
+}
+
+
+/*FOOTER MISMO PARA TODOS
+footer{
+    background-color: rgb(251, 205, 63);
+    width: auto;
+    height: 200px;
+}
+
+.redes li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 450px;
+}*/
+
+
